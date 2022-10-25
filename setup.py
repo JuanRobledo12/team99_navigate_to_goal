@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             'print_fixed_odometry = team99_navigate_to_goal.print_fixed_odometry:main',
             'test_odom = team99_navigate_to_goal.test_odom:main',
+            'go_to_goal = team99_navigate_to_goal.go_to_goal:main',
+            'go_to_goal_v2 = team99_navigate_to_goal.go_to_goal_v2:main',
         ],
     },
 )
